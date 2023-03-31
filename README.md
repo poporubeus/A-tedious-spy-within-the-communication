@@ -7,4 +7,17 @@ In fact, accessing the content of the message could not be possibile without mea
 
 ### The algorithm
 Suppose Alice and Bob would like to communicate by a quantum device. The idea 
- $\newcommand{\Ket}[1]{\left|#1\right>}$
+use({
+  "hrsh7th/nvim-cmp",
+  requires = {
+    { "kdheepak/cmp-latex-symbols" },
+  },
+  sources = {
+    {
+      name = "latex_symbols",
+      option = {
+        strategy = 0, -- mixed
+      },
+    },
+  },
+})
