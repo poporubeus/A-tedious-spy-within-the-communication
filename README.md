@@ -2,8 +2,8 @@
 QKD algorithm written in Python aims to show the effect of a spy inside the quantum communcation between two parties. 
 
 # Description
-BB84 protocol is an algorithm invented for the first time by Charles Bennett and Gilles Brassard who asked themselves if quantum cryptography could have been better than its already known classical counterpart.
-<img src="Images/Dr._Charles_Bennett_IBM_Fellow.jpg" width="100" height="100">
+BB84 protocol is an algorithm invented for the first time by Charles Bennett <img src="Images/Dr._Charles_Bennett_IBM_Fellow.jpg" width="200" height="100"> and Gilles Brassard who asked themselves if quantum cryptography could have been better than its already known classical counterpart.
+
 
 
 Theoretically the answer is "Yes" because, thanks to Quantum Mechanics and its principles, every time an eavesdropper had access to the "quantum message" transmitted by the parties, he would have been detected by his necessity of making a measurement on the target qubit.
